@@ -1,0 +1,65 @@
+body {
+    background-color: hsla(282, 100%, 9%, 0.965);
+    text-align: center;
+}
+
+.portada{
+    position: relative;
+    background-color: rgba(23, 7, 167, 0.767);}
+.foto_portada {
+   width: 80%;
+   text-align: center;
+   margin: 10px;
+   box-shadow: 5px 8px 12px black;
+   }
+.portada h1{
+    color: rgba(6, 202, 124, 0.829);
+    font-family: "Montserrat-bold";
+    font-size: 5rem;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+}
+main{
+    color: beige;
+    padding: 80px;
+}
+.seg_img{
+    position: absolute;
+    left: 100px;
+}
+.segundo_texto{
+    position: relative;
+    right: 10px;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+    size: 50px;
+    }
+    
+    .icon:hover {
+    color: #ff4c68
+    }
+   .imgcar {
+    width: 350px;
+position: relative;
+left: 500px; 
+size: 50px;
+
+}
+   .vistas{
+    background-color: aquamarine;
+    padding: 40px;
+   }
+   .piepag{
+    background-color: cadetblue;
+    padding: 20px;
+   }
+   .icono-final{
+    margin: 10px;
+    color:darkslategrey;
+   }
