@@ -79,3 +79,19 @@ size: 50px;
    .icono-final:hover{
     color: #ff0368;
    }
+   .img_contacto{
+    width: 70%;
+    box-shadow: hsla(120, 61%, 34%, 0.63);
+    padding: 30px;
+   }
+
+   .contacto_header{
+    background-color: rgba(219, 211, 198, 0.49);
+    padding: 50px;;
+   }
+   .formulario{
+    text-align: center;
+   }
+   .formu{
+    background-color: #243718;
+   }
