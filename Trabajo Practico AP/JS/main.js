@@ -6,6 +6,6 @@ const formulario = document.getElementById('formulario');
       event.preventDefault();
       const nombre = document.getElementById('nombre').value;
       Swal.fire('Gracias ' + nombre + ', hemos recibido tu consulta.')
-      
+      formulario.reset()     
     });
 }
