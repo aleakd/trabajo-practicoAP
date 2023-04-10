@@ -28,9 +28,13 @@ body {
     transform: translate(-50%, 50%);
 
 }
-h4{position: relative;
-    bottom: 530px;
-    color: #f2f5f5;
+h4{position: absolute;
+    top: 28%;
+    left: 34%;
+    color: #ff0368;
+    font-size: 50px;
+    background-color: #c79f40a6;
+    border-radius: 20%;
 }
 main{
     color: beige;
@@ -79,6 +83,10 @@ size: 50px;
    .icono-final:hover{
     color: #ff0368;
    }
+
+   /*pagina contacto*/
+
+   /*imagen telefonos*/
    .img_contacto{
     width: 70%;
     box-shadow: hsla(120, 61%, 34%, 0.63);
@@ -94,4 +102,9 @@ size: 50px;
    }
    .formu{
     background-color: #243718;
+   }
+   #formulario, p{
+    color: #243718;
+    text-align: center;
+    font-family: "Montserrat-bold";s
    }
