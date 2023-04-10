@@ -5,6 +5,7 @@ const formulario = document.getElementById('formulario');
     formulario.addEventListener('submit', function(event) {
       event.preventDefault();
       const nombre = document.getElementById('nombre').value;
-      alert('Gracias ' + nombre + ', hemos recibido tu consulta.');
+      Swal.fire('Gracias ' + nombre + ', hemos recibido tu consulta.')
+      
     });
 }
