@@ -28,6 +28,11 @@ document.querySelectorAll('.theme-toggler .theme-btn').forEach(btn =>{
 
 });
 
+
+
+
+
+
 var swiper = new Swiper(".home-slider", {
   effect: "coverflow",
   grabCursor: true,

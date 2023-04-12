@@ -5,8 +5,8 @@ body {
 
 h4{position: absolute;
     top: 12%;
-    left: 32%;
-    color: #f66d24;
+    left: 40%;
+    color: #4a24f6;
     font-size: 60px;
     
     border-radius: 20%;
@@ -16,7 +16,10 @@ h4{position: absolute;
     font-family: "Montserrat-bold";
     font-size: 2rem;
 }
+.logo:hover{
+color:#4a24f6;
 
+}
 #barra{
 background-color: #333;
 }
@@ -49,6 +52,7 @@ main{
     padding: 80px;
 }
 /*loren imputs*/
+
 .segundo_texto{
     position: relative;
     right: 10px;
@@ -58,20 +62,24 @@ main{
 }
 /*iconos de servicios*/
 .icon {
-    color: #243718;
+    color: #92d469;
     margin-bottom: 1rem;
-    size: 50px;
+    size: 10px;
     }
     
     .icon:hover {
-    color: #ff0368
+    color: #4a24f6
     }
 /*carrousel*/
 
 .carousel-item {
     width: 30%;
 position: relative;
-left: 500px; 
+left: 420px; 
+}
+.imgcar{
+height: 700px;
+width: 800px;
 }
 
 .vistas{
@@ -88,7 +96,7 @@ left: 500px;
     color:rgb(72, 123, 123);
 }
 .icono-final:hover{
-    color: #ff0368;
+    color: #4a24f6;
 }
 hr{
     color: gray;
@@ -127,7 +135,7 @@ padding: 3px;
     color: #243718;
     text-align: center;
     font-family: "Montserrat-bold";
-    font-size: 22px;
+    font-size: 16px;
 }
 .creditos{
     color: gray;
