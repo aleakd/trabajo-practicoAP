@@ -3,10 +3,22 @@ body {
     text-align: center;
 }
 
+h4{position: absolute;
+    top: 12%;
+    left: 32%;
+    color: #f66d24;
+    font-size: 60px;
+    
+    border-radius: 20%;
+}
 .logo{
     color: black;
     font-family: "Montserrat-bold";
     font-size: 2rem;
+}
+
+#barra{
+background-color: #333;
 }
 
 .portada{
@@ -17,27 +29,21 @@ body {
     text-align: center;
     margin: 10px;
     box-shadow: 5px 8px 12px black;
+    
+    
 }
 .portada h1{
-    color: rgb(252, 88, 0);
-    background-color: rgba(250, 234, 181, 0.475);
+    color: rgb(58, 48, 234);
     border-radius: 10%;
     font-family: "Montserrat-bold";
-    font-size: 6rem;
+    font-size: 12rem;
     position: absolute;
-    top: 2%;
+    top: 6%;
     left: 50%;
     transform: translate(-50%, 50%);
 
 }
-h4{position: absolute;
-    top: 25%;
-    left: 37%;
-    color: #f66d24;
-    font-size: 50px;
-    
-    border-radius: 20%;
-}
+
 main{
     color: rgb(245, 220, 241);
     padding: 80px;
@@ -74,29 +80,42 @@ left: 500px;
 }
 /*footer- pie de pagina*/
 .piepag{
-    background-color:#9E8353;
+    background-color:#333;
     padding: 20px;
 }
 .icono-final{
     margin: 20px;
-    color:darkslategrey;
+    color:rgb(72, 123, 123);
 }
 .icono-final:hover{
     color: #ff0368;
 }
+hr{
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
 
 /*pagina contacto*/
 
 /*imagen telefonos*/
 .img_contacto{
-width: 70%;
+width: 100%;
 box-shadow: hsla(120, 61%, 34%, 0.63);
-padding: 30px;
+padding: 3px;
 }
 
 .contacto_header{
     background-color: rgba(219, 211, 198, 0.49);
-    padding: 50px;;
+    padding: 10px;;
 }
 .formulario{
     text-align: center;
@@ -107,5 +126,19 @@ padding: 30px;
 #formulario, p{
     color: #243718;
     text-align: center;
-    font-family: "Montserrat-bold";s
+    font-family: "Montserrat-bold";
+    font-size: 22px;
+}
+.creditos{
+    color: gray;
+}
+.titulo_contacto{
+color: #2d03ff;
+position: absolute;
+top: 160px;
+font-family: "Montserrat-bold";
+font-size: 6rem;}
+
+.location, p{
+    font-size: 2rem;
 }

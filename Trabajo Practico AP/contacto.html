@@ -19,7 +19,10 @@
 <link rel="stylesheet" href="./CSS/style.css">
 <script src="./JS/main.js"></script>
 </head>
-<body> <section id="barra">
+<body>
+  
+  <header>
+    <section id="barra">
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark">
        <a class="navbar-brand logo" href="index.html"><i class="fa-solid fa-martini-glass-citrus"></i> Amor&Mar</a>
@@ -36,22 +39,19 @@
          <il class="nav-item">
          <a class="nav-link" href="eventos.html">Eventos</a>
          </il>
-         <il class="nav-item">
-         <a class="nav-link" href="servivcios.html">Servicios</a>
-         </il>
+         
        </ul>
          </nav>
      </div>
 
 </section>
-<header>
-    <div class="contacto_header">
-    <h1>Contacto con nosotros...</h1>
+
+
+  <div class="contacto_header">
+    <h1 class="titulo_contacto">Contacto con nosotros...</h1>
 <img class="img_contacto" src="./CSS/imagenes/contacto-tel.jpg" alt="">
-</div>
+<hr>
 
-
-<div class="contacto_header">
 
 <form id="formulario" >
     <label for="nombre">Nombre:</label>
@@ -69,14 +69,15 @@
     <label for="mensaje">Mensaje:</label><br>
     <textarea id="mensaje" name="mensaje" rows="5" cols="30" required placeholder="Tu consulta nos interesa"></textarea><br><br>
 
-    <button onclick="agradecer_mensaje()">Enviar consulta</button>
+    <button class="btn btn-dark" onclick="agradecer_mensaje()">Enviar consulta</button>
 
   </form>
 </div>
 <div class="location">
-  <p>Direccion: Av. San Martin N°2738</p>
-  <p>Telefono : 0387-4789-2347</p>
-  <p>Amor&Mar@hotel.com</p>
+  <p><u>Direccion:</u> Av. San Martin N°2738</p>
+  <p><u>Telefono :</u> 0387-4789-2347</p>
+  <p><u>Amor&Mar@hotel.com</u></p>
+  <p><u>www.amor&mar.com</u></p>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3198.137759304947!2d-56.866103310871615!3d-37.12913498782611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1681134857782!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
@@ -85,7 +86,7 @@
 <footer class="piepag" id="white-seccion footer">
     <a href="https://api.whatsapp.com/send?phone=5493541661516" target="_blank"><i class="icono-final fa-brands fa-whatsapp fa-2x"></i></a><i class="icono-final fa-brands fa-facebook fa-2x"></i><a href="https://www.instagram.com/ale2419m/" target="_blank"><i class="icono-final fa-brands fa-instagram fa-2x"></i></a>
      <i class="icono-final fa-sharp fa-solid fa-envelope fa-2x"></i>
-        <p>Alejandro Menendez© Copyright 2023 Diseño y contenido Sofía V©</p>
+        <p class="creditos">Alejandro Menendez© Copyright 2023 Diseño y contenido Sofía V©</p>
     
       </footer>
 </body>
