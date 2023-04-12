@@ -2,23 +2,25 @@ body {
     background-color:#9E8353;
     text-align: center;
 }
+
 .logo{
     color: black;
     font-family: "Montserrat-bold";
+    font-size: 2rem;
 }
 
 .portada{
     position: relative;
     background-color: rgba(219, 211, 198, 0.49);}
 .foto_portada {
-   width: 80%;
-   text-align: center;
-   margin: 10px;
-   box-shadow: 5px 8px 12px black;
-   }
+    width: 80%;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 5px 8px 12px black;
+}
 .portada h1{
-    color: rgb(30, 0, 15);
-    background-color: rgba(235, 198, 75, 0.475);
+    color: rgb(252, 88, 0);
+    background-color: rgba(250, 234, 181, 0.475);
     border-radius: 10%;
     font-family: "Montserrat-bold";
     font-size: 6rem;
@@ -29,15 +31,15 @@ body {
 
 }
 h4{position: absolute;
-    top: 28%;
-    left: 34%;
-    color: #ff0368;
+    top: 25%;
+    left: 37%;
+    color: #f66d24;
     font-size: 50px;
-    background-color: #c79f40a6;
+    
     border-radius: 20%;
 }
 main{
-    color: beige;
+    color: rgb(245, 220, 241);
     padding: 80px;
 }
 /*loren imputs*/
@@ -45,7 +47,7 @@ main{
     position: relative;
     right: 10px;
     font-family: "Sacramento";
-    font-size: 45px;
+    font-size: 60px;
     color: #adf5ff;
 }
 /*iconos de servicios*/
@@ -59,52 +61,51 @@ main{
     color: #ff0368
     }
 /*carrousel*/
-   .imgcar {
-    height: 550px;
-    width: 680px;
-position: relative;
-left: 250px; 
-size: 50px;
 
+.carousel-item {
+    width: 30%;
+position: relative;
+left: 500px; 
 }
-   .vistas{
+
+.vistas{
     background-color: rgba(219, 211, 198, 0.49);
     padding: 40px;
-   }
+}
 /*footer- pie de pagina*/
-   .piepag{
+.piepag{
     background-color:#9E8353;
     padding: 20px;
-   }
-   .icono-final{
+}
+.icono-final{
     margin: 20px;
     color:darkslategrey;
-   }
-   .icono-final:hover{
+}
+.icono-final:hover{
     color: #ff0368;
-   }
+}
 
-   /*pagina contacto*/
+/*pagina contacto*/
 
-   /*imagen telefonos*/
-   .img_contacto{
-    width: 70%;
-    box-shadow: hsla(120, 61%, 34%, 0.63);
-    padding: 30px;
-   }
+/*imagen telefonos*/
+.img_contacto{
+width: 70%;
+box-shadow: hsla(120, 61%, 34%, 0.63);
+padding: 30px;
+}
 
-   .contacto_header{
+.contacto_header{
     background-color: rgba(219, 211, 198, 0.49);
     padding: 50px;;
-   }
-   .formulario{
+}
+.formulario{
     text-align: center;
-   }
-   .formu{
+}
+.formu{
     background-color: #243718;
-   }
-   #formulario, p{
+}
+#formulario, p{
     color: #243718;
     text-align: center;
     font-family: "Montserrat-bold";s
-   }
+}
